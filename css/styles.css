@@ -1,0 +1,18 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.text-weight{
+	font-weight: 300;
+}
+.text-muted{
+	font-weight: 100;
+}
+.logo{
+	margin-top: 10px;
+}
+.horizontal-style {
+    border: 0;
+    height: 3px;
+    background:#7d97ad;
+}
+

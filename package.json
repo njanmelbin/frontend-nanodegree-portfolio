@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "design mockup of a portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0007\u0016\u0016https://github.com/njanmelbin/frontend-nanodegree-portfolio.git"
+  },
+  "keywords": [
+    "porfolio",
+    "frontend"
+  ],
+  "author": "melbin thomas",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}

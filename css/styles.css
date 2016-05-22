@@ -2,7 +2,8 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 .text-weight{
-	font-weight: 300;
+	font-weight: 100;
+	color:#888484;
 }
 .text-muted{
 	font-weight: 100;
@@ -15,4 +16,5 @@ body{
     height: 3px;
     background:#7d97ad;
 }
+
 

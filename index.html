@@ -13,10 +13,10 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 ">
+				<div class="col-md-6 col-xs-6 ">
 					<img src="images/img/logo-small.png" alt="Udacity Logo" class="logo">
 				</div>
-				<div class="col-md-6 text-right text-uppercase">
+				<div class="col-md-6 col-xs-6 text-right text-uppercase">
 					<h1 class="text-weight">Melbin Thomas</h1>
 					<h4>Front-end Ninja</h4>
 				</div>
@@ -27,27 +27,34 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
-					<img src="images/img/cover-large.jpg" alt= "developer image" >
+				<div class="col-md-12 ">
+					<!-- <img src="images/img/cover-small.jpg" -->
+						 <!-- scrset="images/img/cover-small.jpg 350w,images/img/cover-medium.jpg 600w"	 -->
+					 <!-- alt= "developer image" > -->
+					 <picture>
+					 	<source scrset="images/img/cover-medium.jpg" media="(max-width: 400px)" >
+					 	<source media="(max-width: 600px)" srcset="images/img/cover-medium.jpg">
+					 	<img src="images/img/cover-large.jpg">
+					 </picture>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="text-muted">Featured Work</h2>
+					<h2 class="text-muted small">Featured Work</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 col-sm-6 text-center">
 					<img src="images/img/portfolio-medium.jpg" alt= "developer image" data-toggle="modal" data-target="#project1">
 					<h3 class="text-uppercase">Porfolio</h3>
 					<a href="https://github.com/njanmelbin/frontend-nanodegree-portfolio.git">github-repo</a>
 				</div>
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 col-sm-6 text-center">
 					<img src="images/img/resume-medium.jpg" alt= "developer image" data-toggle="modal" data-target="#project2">
 					<h3 class="text-uppercase ">Resume</h3>
 					<a href="https://github.com/njanmelbin/frontend-nanaodegree-resume.git">github-repo</a>
 				</div>
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 col-sm-6 text-center">
 					<img src="http://placehold.it/350x350" alt= "developer image">
 					<h3 class="text-uppercase">Work3</h3>
 					<a href="link">link1</a>					
